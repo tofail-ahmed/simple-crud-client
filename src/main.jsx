@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       {
         path: "/updateuser/:id",
         element: <UpdateUser></UpdateUser>,
-        loader: ({params}) => fetch(`http://localhost:5000/users/${params.id}`)
+        loader: ({ params }) => fetch(`https://simple-crud-server-blond.vercel.app/users/${params.id}`)
 
       }
     ]

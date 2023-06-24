@@ -19,7 +19,7 @@ const UserDetails = ({ user, users, setUsers }) => {
       };
 
       const handleDelete = (_id) => {
-            fetch(`http://localhost:5000/users/${_id}`, {
+            fetch(`https://simple-crud-server-blond.vercel.app/users/${_id}`, {
                   method: 'DELETE'
             })
                   .then(res => res.json())

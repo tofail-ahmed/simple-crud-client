@@ -9,7 +9,7 @@ const Home = () => {
 
       useEffect(() => {
             setLoading(true);
-            fetch('http://localhost:5000/users')
+            fetch('https://simple-crud-server-blond.vercel.app/users')
                   .then(res => res.json())
                   .then(data => {
                         setUsers(data);

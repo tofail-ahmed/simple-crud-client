@@ -16,7 +16,7 @@ const UpdateUser = () => {
                   email,
                   phone
             }
-            fetch(`http://localhost:5000/users/${_id}`, {
+            fetch(`https://simple-crud-server-blond.vercel.app/users/${_id}`, {
                   method: "PUT",
                   headers: {
                         "content-type": "application/json"
