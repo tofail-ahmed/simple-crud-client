@@ -1,0 +1,25 @@
+/* .animation-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+
+.animated-text {
+      font-size: 48px;
+      animation: slide-in 2s ease-in-out infinite;
+}
+
+@keyframes slide-in {
+      0% {
+            transform: translateX(-100%);
+      }
+
+      50% {
+            transform: translateX(0);
+      }
+
+      100% {
+            transform: translateX(100%);
+      }
+} */
